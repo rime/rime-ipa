@@ -4,7 +4,7 @@
 schema:
   schema_id: ipa_xsampa
   name: X-SAMPA
-  version: "0.2"
+  version: '0.3'
   author:
     - Patrick <ipatrickmac@qq.com>
     - GONG Chen <chen.sst@gmail.com>
@@ -34,6 +34,11 @@ engine:
 speller:
   alphabet: 'ZYXWVUTSRQPONMLKJIHGFEDCBAzyxwvutsrqponmlkjihgfedcba_<>\`~."%'':@{}1234567890&?!^|=-+/'
   delimiter: ' '
+  auto_select: true
 
 translator:
   dictionary: ipa_xsampa
+  enable_sentence: false
+  enable_user_dict: false
+  comment_format:
+    - xform/^~//
