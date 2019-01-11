@@ -1,0 +1,38 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: ipa_yunlong
+  name: 雲龍國際音標
+  version: '5.0'
+  author:
+    - 編碼設計：潘悟雲、李龍
+    - 整理：采采卷耳
+    - 輸入方案設計：佛振
+  description: |
+    通過字母、數字和符號轉寫輸入國際音標（IPA）
+    https://en.wikipedia.org/wiki/International_Phonetic_Alphabet
+
+engine:
+  processors:
+    - speller
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+
+speller:
+  alphabet: "!'()+-./0123456789:;<=>?[\\]^`abcdefghijklmnopqrstuvwxyz|~"
+  initials: "!()/0123456789:;?\\]abcdefghijklmnopqrstuvwxyz|"
+  auto_select: true
+
+translator:
+  dictionary: ipa_yunlong
+  enable_sentence: false
+  enable_user_dict: false
+  comment_format:
+    - xform/^~//
