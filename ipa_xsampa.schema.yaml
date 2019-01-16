@@ -4,7 +4,7 @@
 schema:
   schema_id: ipa_xsampa
   name: X-SAMPA
-  version: '0.3'
+  version: '0.4'
   author:
     - Patrick <ipatrickmac@qq.com>
     - GONG Chen <chen.sst@gmail.com>
@@ -14,6 +14,7 @@ schema:
 
 engine:
   processors:
+    - key_binder
     - speller
     - selector
     - navigator
@@ -35,3 +36,6 @@ translator:
   enable_user_dict: false
   comment_format:
     - xform/^~//
+
+key_binder:
+  import_preset: default
