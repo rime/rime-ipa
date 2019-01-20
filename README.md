@@ -2,7 +2,7 @@
 
 配方： ℞ **ipa**
 
-[Rime](http://rime.im) 國際音標輸入方案
+[Rime](https://rime.im) 國際音標輸入方案
 
 通過字母、數字和符號轉寫輸入 [國際音標](https://en.wikipedia.org/wiki/International_Phonetic_Alphabet)。
 內含「[X-SAMPA](https://en.wikipedia.org/wiki/X-SAMPA)」及「雲龍國際音標」兩種編碼方式。
