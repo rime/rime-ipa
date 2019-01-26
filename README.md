@@ -87,6 +87,6 @@ Windows系統請參考下文「在Windows系統使用配置管理器」。
 
 ## 輸入國際音標
 
-[使用方案選單](https://github.com/rime/home/wiki/UserGuide#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%A1%88%E9%81%B8%E5%96%AE) 選取國際音標輸入方案，即可輸入對應編碼獲得音標符號。
+在Rime輸入法中按 `F4` 或 ``Control+` `` 打開 [方案選單](https://github.com/rime/home/wiki/UserGuide#%E4%BD%BF%E7%94%A8%E6%96%B9%E6%A1%88%E9%81%B8%E5%96%AE)，選取國際音標輸入方案，即可輸入對應編碼獲得音標符號。
 
 運指齊按快捷鍵 `Control+Shift+1` 在最近使用的兩個輸入方案（如常用的中文輸入法和國際音標）之間相互切換。
