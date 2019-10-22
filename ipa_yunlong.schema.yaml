@@ -4,7 +4,7 @@
 schema:
   schema_id: ipa_yunlong
   name: 雲龍國際音標
-  version: '5.2'
+  version: '5.3'
   author:
     - 編碼設計：潘悟雲、李龍
     - 整理：采采卷耳
@@ -40,3 +40,8 @@ translator:
 
 key_binder:
   import_preset: default
+  bindings:
+    - { when: has_menu, accept: minus, send: minus } # h-
+    - { when: has_menu, accept: equal, send: equal } # |=
+    - { when: has_menu, accept: comma, send: comma }
+    - { when: has_menu, accept: period, send: period } # o.
