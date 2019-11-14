@@ -7,7 +7,7 @@
 
 ---
 name: ipa_yunlong
-version: '5.3'
+version: '5.4'
 sort: original
 ...
 
@@ -422,11 +422,19 @@ e	e
 ɘ	ew
 f	f
 ̄	f-
+᷄	f-/
+᷆	f-\
 ̇	f.
 ̈	f..
 ́	f/
+᷇	f/-
 ̋	f//
+̂	f/\
+᷉	f/\/
 ̀	f\
+᷅	f\-
+̌	f\/
+᷈	f\/\
 ̏	f\\
 ͆	f]
 ̂	f^
