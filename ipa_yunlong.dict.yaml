@@ -7,7 +7,7 @@
 
 ---
 name: ipa_yunlong
-version: '5.6'
+version: '5.7'
 sort: original
 ...
 
@@ -17,6 +17,7 @@ sort: original
 ₍	(qq
 ⁾	)q
 ₎	)qq
+/	/
 ꜌	/1
 ˩	/11
 ˩˩	/111
