@@ -28,7 +28,7 @@ engine:
 
 speller:
   alphabet: "_!'()+-./0123456789:;<=>?[\\]^`abcdefghijklmnopqrstuvwxyz|~"
-  initials: "_!()/0123456789:;?\\]abcdefghijklmnopqrstuvwxyz|"
+  initials: "_!()/0123456789:;<>?\\]abcdefghijklmnopqrstuvwxyz|"
   auto_select: true
 
 translator:
