@@ -1,0 +1,41 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: ipa_dj
+  name: dj音标
+  version: '0.1'
+  author:
+    - lifxue <lifxue@gmail.com>
+    - tonyxue <tonyxue01@126.com>
+  description: |
+    ipa for English 
+    https://baike.baidu.com/item/%E8%8B%B1%E8%AF%AD%E9%9F%B3%E6%A0%87/9519902?fr=aladdin
+
+engine:
+  processors:
+    - key_binder
+    - speller
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+
+speller:
+  alphabet: "!'()+-./0123456789:<=>?HL[\\]^`abcdefghijklmnopqrstuvwxyz|~"
+  initials: "!()/0123456789:?HL\\]abcdefghijklmnopqrstuvwxyz|"
+  auto_select: true
+
+translator:
+  dictionary: ipa_dj
+  enable_sentence: false
+  enable_user_dict: false
+  comment_format:
+    - xform/^~//
+
+key_binder:
+  import_preset: default

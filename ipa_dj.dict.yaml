@@ -1,0 +1,78 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# IPA for English
+#
+# Table author:
+#  - lifxue <lifxue@gmail.com>
+#  - tonyxue <tonyxue01@126.com>
+#
+
+---
+name: ipa_dj
+version: "0.1"
+sort: original
+...
+
+#Lower case symbols
+ː	:
+'	'
+#Fron Vowels
+i	i
+ɪ	ii
+e	e
+æ	an
+#Central Vowels
+ɜ	er
+ə	a
+#Back Vowels
+ɔ	or
+ɒ	o
+u	u
+ʊ	uu
+ɑ	ar
+ʌ	ou
+#Diphthongs
+aɪ	y
+eɪ	ei
+aʊ	ow
+əʊ	oa
+ɔɪ	oi
+eə	ear
+ɪə	ea
+ʊə	our
+#Plosives
+p	p
+b	b
+t	t
+d	d
+k	k
+g	g
+#Fricatives
+∫	sh
+ʒ	si
+s	s
+z	z
+θ	th
+ð	thh
+f	f
+v	v
+h	h
+r	r
+#Affricates
+ʧ	ch
+ʤ	j
+tr	tr
+dr	dr
+ʦ	ts
+ʣ	dz
+#Nasals
+m	m
+n	n
+ŋ	ng
+#Semivowels
+w	w
+j	j
+#Lateral
+l	l
+
